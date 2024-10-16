@@ -1,6 +1,7 @@
-streamlit==1.18.0
-pandas==1.5.3
-numpy==1.23.5
-pickle5==0.0.11
-openai==0.27.0
-plotly==5.13.1
+streamlit
+pandas
+numpy
+openai
+plotly
+xgboost
+python-dotenv
