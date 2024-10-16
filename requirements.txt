@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+openai
+plotly
+xgboost
+python-dotenv
