@@ -5,9 +5,6 @@ import numpy as np
 import os
 from openai import OpenAI
 import utils as ut
-from dotenv import load_dotenv
-
-load_dotenv("secrets/.env")
 
 client = OpenAI(
   base_url="https://api.groq.com/openai/v1",
