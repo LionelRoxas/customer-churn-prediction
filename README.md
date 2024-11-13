@@ -1,25 +1,26 @@
-Customer Churn Prediction Project 🚀
-Welcome to my latest project on Customer Churn Prediction! This project, deployed using Streamlit, leverages both classical machine learning and generative AI to help banks identify customers at risk of churning. With models like Random Forest, XGBoost, Support Vector Machines, and more, this project predicts churn probability and offers actionable insights for customer retention.
+<h1>Customer Churn Prediction Project 🚀</h1>
 
-🔍 Key Highlights
-Multiple Machine Learning Models:
+<p>Welcome to my latest project on <strong>Customer Churn Prediction</strong>! This project, deployed using <strong>Streamlit</strong>, leverages both classical machine learning and generative AI to help banks identify customers at risk of churning. With models like <strong>Random Forest</strong>, <strong>XGBoost</strong>, <strong>Support Vector Machines</strong>, and more, this project predicts churn probability and offers actionable insights for customer retention.</p>
 
-Predictions are based on an ensemble of models, including Random Forest, K-nearest Neighbors, and Gradient Boosting, to determine the likelihood of customer churn.
-Generative AI Integration:
+<h2>🔍 Key Highlights</h2>
+<ul>
+  <li><strong>Multiple Machine Learning Models:</strong> Predictions are based on an ensemble of models, including <strong>Random Forest</strong>, <strong>K-nearest Neighbors</strong>, and <strong>Gradient Boosting</strong>, to determine the likelihood of customer churn.</li>
+  <li><strong>Generative AI Integration:</strong> Utilizing <strong>Llama 3.1</strong> (via <strong>Groq</strong>), the app generates interpretable explanations for predictions, helping banks understand the reasons behind potential churn.</li>
+  <li><strong>Personalized Customer Outreach:</strong> The app also employs <strong>Llama 3.1</strong> to generate personalized email content that banks can send to at-risk customers to encourage retention.</li>
+</ul>
 
-Utilizing Llama 3.1 (via Groq), the app generates interpretable explanations for predictions, helping banks understand the reasons behind potential churn.
-Personalized Customer Outreach:
+<h2>🛠️ Live Demo</h2>
+<p>Imagine being a bank manager with access to a dashboard displaying customer data (such as credit score, balance, etc.). The app predicts churn probability, such as a customer having a 19.1% chance of churning due to limited engagement. It then generates personalized email messages, which banks can use to connect with and retain these at-risk customers.</p>
 
-The app also employs Llama 3.1 to generate personalized email content that banks can send to at-risk customers to encourage retention.
-🛠️ Live Demo
-Imagine being a bank manager with access to a dashboard displaying customer data (such as credit score, balance, etc.). The app predicts churn probability, such as a customer having a 19.1% chance of churning due to limited engagement. It then generates personalized email messages, which banks can use to connect with and retain these at-risk customers.
+<h2>🏗️ Project Architecture</h2>
+<ol>
+  <li><strong>Data Collection:</strong> Downloaded a bank customer dataset from Kaggle.</li>
+  <li><strong>Data Processing:</strong> Cleaned and normalized the data, performing feature engineering to improve model accuracy.</li>
+  <li><strong>Model Training:</strong> Trained multiple models, fine-tuning hyperparameters for optimal results.</li>
+  <li><strong>Web App Development:</strong> Created an interactive web app that displays predictions and generates AI-driven explanations and emails.</li>
+</ol>
 
-🏗️ Project Architecture
-Data Collection: Downloaded a bank customer dataset from Kaggle.
-Data Processing: Cleaned and normalized the data, performing feature engineering to improve model accuracy.
-Model Training: Trained multiple models, fine-tuning hyperparameters for optimal results.
-Web App Development: Created an interactive web app that displays predictions and generates AI-driven explanations and emails.
-🔗 Check It Out
-The project is live on Streamlit and hosted via Hex for public access. This transparency aims to inspire fellow students and promote innovation in AI-driven solutions. A special thank you to Faizan Ahmed for his guiding tutorial on Headstarter.
+<h2>🔗 Check It Out</h2>
+<p>The project is live on <strong>Streamlit</strong> and hosted via <strong>Hex</strong> for public access. This transparency aims to inspire fellow students and promote innovation in AI-driven solutions. A special thank you to <strong>Faizan Ahmed</strong> for his guiding tutorial on Headstarter.</p>
 
-Try the app, explore the code, and see AI in action!
+<p><strong>Try the app, explore the code, and see AI in action!</strong></p>
